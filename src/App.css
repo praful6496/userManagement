@@ -1,6 +1,6 @@
-.App {
+/* .App {
   text-align: center;
-}
+} */
 
 form label{
   display: inline-block;
@@ -21,4 +21,9 @@ form select {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }

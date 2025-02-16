@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import { useNavigate } from "react-router-dom";
+import { TextField, Button, Typography, Container, Box, Alert } from "@mui/material";
 
 const AdminLogin = ({setIsAuthenticated})=>{
     const [email, setEmail]=useState("");
@@ -34,23 +35,40 @@ const AdminLogin = ({setIsAuthenticated})=>{
         }
     }
     return(
-        <>
-            <h2>
+        <Container maxWidth="sm">
+        <Box sx={{ mt: 8, p: 4, boxShadow: 3, borderRadius: 2, textAlign: "center" }}>
+            <Typography variant="h4" gutterBottom>
                 Admin Login
-            </h2>
-            {error && <p style={{color:"red"}}>{error}</p>}
+            </Typography>
+
+            {error && <Alert severity="error" sx={{ mb: 2 }}>{error}</Alert>}
+
             <form onSubmit={handleLogin}>
-                <div>
-                    <label>email :</label>
-                    <input type="email" value={email} onChange={(e)=>setEmail(e.target.value)} placeholder="Email" />
-                </div>
-                <div>
-                    <label>Password :</label>
-                    <input type="password" value={password} onChange={(e)=>setPassword(e.target.value)} placeholder="Password" />
-                </div>
-                <button type="submit">Login</button>
+                <TextField
+                    fullWidth
+                    label="Email"
+                    type="email"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
+                    margin="normal"
+                    required
+                />
+                <TextField
+                    fullWidth
+                    label="Password"
+                    type="password"
+                    value={password}
+                    onChange={(e) => setPassword(e.target.value)}
+                    margin="normal"
+                    required
+                />
+
+                <Button type="submit" variant="contained" fullWidth sx={{backgroundColor:"#000", color:"white", mt:2}}>
+                    Login
+                </Button>
             </form>
-        </>
+        </Box>
+    </Container>
     )
 }
 

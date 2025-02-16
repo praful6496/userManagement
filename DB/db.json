@@ -1,55 +1,84 @@
 {
   "users": [
     {
-      "id": 1,
+      "id": "1",
       "name": "admin",
       "email": "admin@gmail.com",
       "role": "Admin",
       "password": "admin123"
     },
     {
-      "id": 2,
-      "name": "user",
-      "email": "user@gmail.com",
-      "role": "User",
-      "password": "user123"
-    },
-    {
-      "id": 1739619834547,
+      "id": 1739691739359,
       "name": "test",
-      "email": "test@gmail.com",
+      "email": "hdjshd@gmail.com",
       "password": "123",
       "role": "User"
     },
     {
-      "id": 1739620220546,
-      "name": "test1",
-      "email": "test123@gmail.com",
+      "id": 1739691772643,
+      "name": "new user",
+      "email": "new@gmail.com",
       "password": "123",
       "role": "User"
     },
     {
-      "id": 1739620897890,
-      "name": "test123",
+      "id": 1739692280128,
+      "name": "update check",
+      "email": "new@gmail.com",
+      "password": "123",
+      "role": "Admin"
+    },
+    {
+      "id": 1739692491400,
+      "name": "test",
       "email": "test@gmail.com",
       "password": "123",
       "role": "User"
     }
   ],
-
-  "products" :[ 
+  "products": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Iphone 14",
-      "description": "iPhone 14 and iPhone 14 Plus are designed with the following features to reduce their environmental",
+      "description": "iPhone 14 and iPhone 14 Plus are designed with the ",
       "price": 999,
       "image": "https://placehold.co/150"
     },
     {
-      "id": 2,
-      "name": "Samsung Galaxy S23",
+      "id": "2",
+      "name": "Opp S12",
       "description": "following features to reduce their environmental",
       "price": 899,
+      "image": "https://placehold.co/150"
+    },
+    {
+      "id": "3",
+      "name": "Samsung A50",
+      "description": "following features to reduce their environmental",
+      "price": 700,
+      "image": "https://placehold.co/150"
+    },
+    {
+      "id": "4",
+      "name": "Vivo Y53",
+      "description": "following features to reduce their environmental",
+      "price": 500,
+      "image": "https://placehold.co/150"
+    }
+  ],
+  "cart": [
+    {
+      "id": "4",
+      "name": "Jio",
+      "description": "following features to reduce their environmental",
+      "price": 500,
+      "image": "https://placehold.co/150"
+    },
+    {
+      "id": "4",
+      "name": "Jio",
+      "description": "following features to reduce their environmental",
+      "price": 500,
       "image": "https://placehold.co/150"
     }
   ]
