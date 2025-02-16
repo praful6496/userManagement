@@ -8,28 +8,21 @@
       "password": "admin123"
     },
     {
-      "id": 1739691739359,
-      "name": "test",
-      "email": "hdjshd@gmail.com",
-      "password": "123",
-      "role": "User"
-    },
-    {
-      "id": 1739691772643,
+      "id": "1739691772643",
       "name": "new user",
       "email": "new@gmail.com",
       "password": "123",
       "role": "User"
     },
     {
-      "id": 1739692280128,
+      "id": "1739692280128",
       "name": "update check",
       "email": "new@gmail.com",
       "password": "123",
       "role": "Admin"
     },
     {
-      "id": 1739692491400,
+      "id": "1739692491400",
       "name": "test",
       "email": "test@gmail.com",
       "password": "123",
@@ -66,20 +59,5 @@
       "image": "https://placehold.co/150"
     }
   ],
-  "cart": [
-    {
-      "id": "4",
-      "name": "Jio",
-      "description": "following features to reduce their environmental",
-      "price": 500,
-      "image": "https://placehold.co/150"
-    },
-    {
-      "id": "4",
-      "name": "Jio",
-      "description": "following features to reduce their environmental",
-      "price": 500,
-      "image": "https://placehold.co/150"
-    }
-  ]
+  "cart": []
 }
